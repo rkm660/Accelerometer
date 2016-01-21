@@ -1,5 +1,19 @@
 <ion-view view-title="Phone Orientation">
-  <ion-content>
-    <h1 align="center">{{output}}</h1>
-  </ion-content>
+    <ion-content>
+        <div align="center">
+            <ion-list>
+                <ion-item>
+                <h1>{{output}}</h1>
+                </ion-item>
+            	<ion-item>
+            	<h6>Z+ proper acceleration: {{coords.z}} m/s^2</h6>
+            	</ion-item
+            </ion-list>
+         </div>
+            <label class="item item-input">
+                <span class="input-label">Threshold</span>
+                <input ng-change="changedThreshold(threshold)" ng-model="threshold" type="number">
+            </label>
+
+    </ion-content>
 </ion-view>
