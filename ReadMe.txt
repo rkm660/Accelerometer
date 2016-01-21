@@ -1,0 +1,1 @@
+To run this app, simply navigate to platforms/ios/HelloWorld.xcodeproj, plug in an iOS device, and press run.
